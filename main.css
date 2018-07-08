@@ -1,0 +1,23 @@
+/* GLOBAL STYLES */
+a {
+  color: #303459;
+}
+
+/* PROJECT STYLES */
+.project-wrapper {
+  font-size: 24px;
+}
+
+.project-box {
+  border: 1px solid black;
+  font-size: 1rem;
+  width: 50%;
+}
+
+.project-box h3 {
+  font-size: 1.5em;
+}
+
+.intro-copy {
+  font-size: 1em;
+}
