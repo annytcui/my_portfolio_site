@@ -62,14 +62,17 @@ h1 {
 h2 {
   display: block;
   font-size: 3vw;
-  margin: 60px auto 20px;
+  margin: 80px auto 20px;
   text-align: center;
 }
 
 /* HERO STYLES */
 .full-hero {
-  background-color: #c7dbfc;
+  background-image: url("assets/hero.jpeg");
   height: 50vh;
+}
+.full-hero h1 {
+  color: rgba(66, 57, 57, 0.8);
 }
 
 /* SOCIAL LINKS */
