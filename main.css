@@ -51,8 +51,9 @@ a {
   color: #303459;
 }
 h1 {
-  font-size: 7vw;
+  font-size: 5vw;
   margin-top: 0;
+  text-align: center;
 }
 
 /* HERO STYLES */
@@ -60,7 +61,15 @@ h1 {
   background-color: #c7dbfc;
   height: 50vh;
 }
-.social-links {
+
+/* SOCIAL LINKS */
+.social-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.social-list > li {
+  background-color: #a9afb2;
   display: inline-block;
 }
 
