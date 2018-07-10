@@ -70,9 +70,17 @@ h2 {
 .full-hero {
   background-image: url("assets/hero.jpeg");
   height: 55vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .full-hero h1 {
   color: rgba(66, 57, 57, 0.8);
+  display: inline-block;
+  margin: 10vh 32vw;
+  text-shadow: 0.5px 0.5px;
 }
 
 /* SOCIAL LINKS */
@@ -114,13 +122,14 @@ h2 {
   position: relative;
   text-align: center;
   text-decoration: none;
-  margin-top: 20vh;
+  margin-top: 5vh;
   vertical-align: middle;
   width: 4.5em;
 }
 .social-link:hover {
+  background-color: #d5e2e1;
   box-shadow: 3px 3px;
-  margin-top: 19vh;
+  margin-top: 4vh;
 }
 
 /* PROJECT STYLES */
