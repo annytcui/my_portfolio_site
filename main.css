@@ -68,8 +68,12 @@ h2 {
 
 /* HERO STYLES */
 .full-hero {
+  align-items: center;
   background-image: url("assets/hero.jpeg");
+  display: flex;
+  flex-direction: column;
   height: 55vh;
+  justify-content: center;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: bottom center;
@@ -78,8 +82,6 @@ h2 {
 }
 .full-hero h1 {
   color: rgba(66, 57, 57, 0.8);
-  display: inline-block;
-  margin: 10vh 32vw;
   text-shadow: 0.5px 0.5px;
 }
 
@@ -91,6 +93,9 @@ h2 {
 }
 .social-list > li {
   display: inline-block;
+}
+.social-list li:not(:first-child) {
+  margin-left: 10px;
 }
 
 .social-link:before {
