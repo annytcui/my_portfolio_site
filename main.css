@@ -69,7 +69,7 @@ h2 {
 /* HERO STYLES */
 .full-hero {
   background-image: url("assets/hero.jpeg");
-  height: 50vh;
+  height: 55vh;
 }
 .full-hero h1 {
   color: rgba(66, 57, 57, 0.8);
@@ -82,8 +82,45 @@ h2 {
   text-align: center;
 }
 .social-list > li {
-  background-color: #a9afb2;
   display: inline-block;
+}
+
+.social-link:before {
+  background-color: #d2efed;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  content: "";
+  position: absolute;
+  top: -0.5em;
+  box-sizing: border-box;
+  height: 1em;
+  width: 1em;
+  left: 0.75em;
+  transform: rotate(40deg);
+}
+.social-link {
+  background-color: #d2efed;
+  border-radius: 2.5em;
+  box-shadow: 2px 2px;
+  box-sizing: border-box;
+  color: rgba(66, 57, 57, 0.6);
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 1.5em;
+  line-height: 1;
+  padding-top: 0.3em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20vh;
+  vertical-align: middle;
+  width: 4.5em;
+}
+.social-link:hover {
+  box-shadow: 3px 3px;
+  margin-top: 19vh;
 }
 
 /* PROJECT STYLES */
@@ -103,7 +140,6 @@ h2 {
   clear: both;
   height: 0;
 }
-
 .project-box {
   border-bottom: 1px solid #a9afb2;
   font-size: 1rem;
