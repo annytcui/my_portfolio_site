@@ -1,0 +1,122 @@
+/* GLOBAL STYLES */
+a {
+  color: #303459;
+}
+body {
+  font-family: arial, helvetica, sans-serif;
+  line-height: normal;
+}
+h1 {
+  font-size: 5vw;
+  margin-top: 0;
+  text-align: center;
+}
+h2 {
+  display: block;
+  font-size: 3vw;
+  margin: 80px auto 20px;
+  text-align: center;
+}
+
+/* HERO STYLES */
+.full-hero {
+  align-items: center;
+  background-image: url("assets/hero.jpeg");
+  display: flex;
+  flex-direction: column;
+  height: 55vh;
+  justify-content: center;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.full-hero h1 {
+  color: rgba(66, 57, 57, 0.8);
+  text-shadow: 0.5px 0.5px;
+}
+
+/* SOCIAL LINKS */
+.social-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.social-list > li {
+  display: inline-block;
+}
+.social-list li:not(:first-child) {
+  margin-left: 10px;
+}
+
+.social-link:before {
+  background-color: #d2efed;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  content: "";
+  position: absolute;
+  top: -0.5em;
+  box-sizing: border-box;
+  height: 1em;
+  width: 1em;
+  left: 0.75em;
+  transform: rotate(40deg);
+}
+.social-link {
+  background-color: #d2efed;
+  border-radius: 2.5em;
+  box-shadow: 2px 2px;
+  box-sizing: border-box;
+  color: rgba(66, 57, 57, 0.6);
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 1.5em;
+  line-height: 1;
+  padding-top: 0.3em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5vh;
+  vertical-align: middle;
+  width: 4.5em;
+}
+.social-link:hover {
+  background-color: #d5e2e1;
+  box-shadow: 3px 3px;
+  margin-top: 4vh;
+}
+
+/* PROJECT STYLES */
+.project-wrapper {
+  display: grid;
+  font-size: 24px;
+  grid-template-columns: 50% 50%;
+  margin: auto;
+  max-width: 960px;
+}
+
+.project-wrapper:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.project-box {
+  border-bottom: 1px solid #a9afb2;
+  font-size: 1rem;
+  margin: 30px 20px 10px;
+  padding: 20px;
+}
+
+.project-box h3 {
+  font-size: 1.5em;
+}
+
+.intro-copy {
+  font-size: 1em;
+}
