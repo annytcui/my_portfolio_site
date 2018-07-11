@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Portfolio Site</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="main.css">
-  </head>
+  {% include head.html %}
   <body>
+    {% include header.html %}
     <div class="full-hero hero-home">
       <h1>I'm a developer</h1>
       <ul class="social-list">
@@ -73,5 +70,6 @@
       </div>
     </div>
 
+    {% include footer.html %}
   </body>
 </html>
