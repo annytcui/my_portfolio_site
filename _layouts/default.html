@@ -2,20 +2,12 @@
 <html>
   {% include head.html %}
   <body>
-    {% include header.html %}
-    <div class="full-hero hero-home">
-      <h1>I'm a developer</h1>
-      <ul class="social-list">
-        <li>
-          <a href="http://example.com/" class="social-link">Link</a>
-        </li>
-        <li>
-          <a href="http://example.com/"  class="social-link">Link</a>
-        </li>
-        <li>
-          <a href="http://example.com/"  class="social-link">Link</a>
-        </li>
-      </ul>
+    <div class="hero-intro">
+      {% include header.html %}
+      <div class="hero-home">
+        <h1>I'm a developer</h1>
+        {% include social_links.html %}
+      </div>
     </div>
 
     <h2>Work</h2>

@@ -20,9 +20,12 @@ h2 {
 
 /* HEADER STYLES */
 .header {
-  background-color: rgba(255, 255, 255, 0.01);
-  display: none;
+  /*background-color: rgba(255, 255, 255, 1);*/
+  box-sizing: border-box;
   padding: 3vh 3vw 1vh;
+  position: fixed;
+  width: 100%;
+  z-index: 30;
 }
 .header-nav {
   float: right;
@@ -44,22 +47,34 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
 }
+.header-nav a:hover {
+  text-shadow: 5px 5px;
+}
+
+/* FOOTER STYLES */
+.footer {
+  background-color: azure;
+  height: 40vh;
+  margin-top: 18vh;
+}
 
 /* HERO STYLES */
-.full-hero {
-  align-items: center;
+.hero-intro {
   background-image: url("images/hero.jpeg");
-  display: flex;
-  flex-direction: column;
-  height: 60vh;
-  justify-content: center;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.full-hero h1 {
+.hero-home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  justify-content: center;
+}
+.hero-home h1 {
   color: rgba(66, 57, 57, 0.8);
   text-shadow: 0.5px 0.5px;
 }
