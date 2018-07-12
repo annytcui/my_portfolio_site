@@ -7,9 +7,7 @@ body {
   line-height: normal;
 }
 h1 {
-  font-size: 5vw;
-  margin-top: 0;
-  text-align: center;
+  font-size: 4vw;
 }
 h2 {
   display: block;
@@ -20,8 +18,8 @@ h2 {
 
 /* HEADER STYLES */
 .header {
-  /*background-color: rgba(255, 255, 255, 1);*/
   box-sizing: border-box;
+  transition: top 0.2s ease-in-out;
   padding: 3vh 3vw 1vh;
   position: fixed;
   width: 100%;
@@ -48,7 +46,11 @@ h2 {
   text-transform: uppercase;
 }
 .header-nav a:hover {
-  text-shadow: 5px 5px;
+  color: #49c16b;
+  text-decoration: overline;
+}
+.nav-up {
+  background-color: rgba(255, 255, 255, 1);
 }
 
 /* FOOTER STYLES */
@@ -59,7 +61,7 @@ h2 {
 }
 
 /* HERO STYLES */
-.hero-intro {
+.full-hero {
   background-image: url("images/hero.jpeg");
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
