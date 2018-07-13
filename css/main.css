@@ -3,7 +3,7 @@ a {
   color: #303459;
 }
 body {
-  font-family: arial, helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: normal;
 }
 h1 {
@@ -34,13 +34,14 @@ h2 {
 }
 .header-nav a {
   color: rgba(66, 57, 57, 0.8);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
 }
 .header-name {
-  font-size: 0.8rem;
+  font-family: 'Knewave', cursive;
+  font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
@@ -53,19 +54,12 @@ h2 {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* FOOTER STYLES */
-.footer {
-  background-color: azure;
-  height: 40vh;
-  margin-top: 18vh;
-}
-
 /* HERO STYLES */
 .full-hero {
-  background-image: url("images/hero.jpeg");
+  background-image: url("images/home.jpeg");
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: bottom center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -78,23 +72,24 @@ h2 {
 }
 .hero-home h1 {
   color: rgba(66, 57, 57, 0.8);
+  font-family: 'Knewave', cursive;
   text-shadow: 0.5px 0.5px;
 }
 
-/* SOCIAL LINKS */
-.social-list {
+/* LANGUAGE LINKS */
+.lan-list {
   list-style: none;
   padding: 0;
   text-align: center;
 }
-.social-list > li {
+.lan-list > li {
   display: inline-block;
 }
-.social-list li:not(:first-child) {
+.lan-list li:not(:first-child) {
   margin-left: 10px;
 }
 
-.social-link:before {
+.lan-link:before {
   background-color: #d2efed;
   border-radius: 50%;
   border-bottom-color: transparent;
@@ -109,7 +104,7 @@ h2 {
   transform: rotate(40deg);
   z-index: -1;
 }
-.social-link:after {
+.lan-link:after {
   background-color: #d2efed;
   border-radius: 50%;
   border-bottom-color: transparent;
@@ -124,7 +119,7 @@ h2 {
   transform: rotate(40deg);
   z-index: -1;
 }
-.social-link {
+.lan-link {
   background-color: #d2efed;
   border-radius: 2.5em;
   box-shadow: 2px 2px;
@@ -144,11 +139,57 @@ h2 {
   width: 5.5em;
   z-index: 1;
 }
-.social-link:hover {
+.lan-link:hover {
   box-shadow: 3px 3px;
   margin-top: 4vh;
 }
 
+/* FONTAWESOME ICON STYLES */
+.fab, .fas, .far {
+  color: white;
+  text-decoration: none;
+}
+.fab, .fas {
+  padding: 20px 3px;
+  font-size: 30px;
+  width: 50px;
+}
+.fab:hover, .fas:hover {
+  opacity: 0.7;
+}
+
+/* FOOTER STYLES */
+.footer {
+  align-items: center;
+  background-image: url("images/home.jpeg");
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  justify-content: center;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.copyright {
+  display: flex;
+}
+.copyright p,
+.copyright h3 {
+  color: white;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+.copyright h3 {
+  text-transform: uppercase;
+}
+
+/* CENTRAL BODY STYLES */
+.central-body {
+  background-image: url("images/central.png");
+  height: 115vh;
+}
 
 /* PROJECT STYLES */
 .project-wrapper {
