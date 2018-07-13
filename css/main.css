@@ -103,10 +103,26 @@ h2 {
   position: absolute;
   top: -0.5em;
   box-sizing: border-box;
-  height: 1em;
-  width: 1em;
+  height: 1.5em;
+  width: 1.5em;
   left: 0.75em;
   transform: rotate(40deg);
+  z-index: -1;
+}
+.social-link:after {
+  background-color: #d2efed;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  content: "";
+  position: absolute;
+  top: -1em;
+  box-sizing: border-box;
+  height: 2.5em;
+  width: 2.5em;
+  left: 2em;
+  transform: rotate(40deg);
+  z-index: -1;
 }
 .social-link {
   background-color: #d2efed;
@@ -115,7 +131,7 @@ h2 {
   box-sizing: border-box;
   color: rgba(66, 57, 57, 0.6);
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold;
   height: 1.5em;
   line-height: 1;
@@ -125,13 +141,14 @@ h2 {
   text-decoration: none;
   margin-top: 5vh;
   vertical-align: middle;
-  width: 4.5em;
+  width: 5.5em;
+  z-index: 1;
 }
 .social-link:hover {
-  background-color: #d5e2e1;
   box-shadow: 3px 3px;
   margin-top: 4vh;
 }
+
 
 /* PROJECT STYLES */
 .project-wrapper {
