@@ -34,6 +34,7 @@ h2 {
 }
 .header-nav a {
   color: rgba(66, 57, 57, 0.8);
+  font-family: 'Knewave', cursive;
   font-size: 0.9rem;
   font-weight: bold;
   text-decoration: none;
@@ -178,17 +179,22 @@ h2 {
 .copyright p,
 .copyright h3 {
   color: white;
-  font-size: 0.8rem;
+  font-size: 0.8rem;;
+}
+.copyright p {
   margin-right: 5px;
 }
 .copyright h3 {
+  margin-left: 5px;
   text-transform: uppercase;
 }
 
 /* CENTRAL BODY STYLES */
 .central-body {
   background-image: url("images/central.png");
-  height: 115vh;
+  background-position: 35% 80%;
+  background-size: cover;
+  height: 135vh;
 }
 
 /* PROJECT STYLES */
