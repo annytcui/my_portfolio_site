@@ -66,7 +66,7 @@ h2 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 65vh;
   justify-content: center;
 }
 .hero-home h1 {
@@ -194,12 +194,12 @@ h2 {
 /* CENTRAL BODY STYLES */
 .central-body {
   align-items: center;
-  background-image: url("images/body.png");
-  background-size: cover;
+  /*background-image: url("images/body.png");
+  background-size: cover;*/
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 120vh;
   justify-content: center;
   padding: 5vh 3vw;
 }
@@ -207,20 +207,46 @@ h2 {
 /* PROJECT STYLES */
 .project-wrapper {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  max-width: 1080px;
+  grid-template-columns: 50% 50%;
 }
 
 .project-box {
+  align-items: flex-end;
+  border-radius: 2vh;
+  box-shadow: 2px 2px #8d9196;
+  display: flex;
   font-size: 1rem;
-  margin: 10px 20px 10px;
-  padding: 20px;
+  height: 40vh;
+  justify-content: flex-start;
+  margin: 5vh;
+  width: 30vw;
 }
-
 .project-box h3 {
   font-size: 1.5em;
 }
-
 .intro-copy {
-  font-size: 1em;
+  box-sizing: border-box;
+  padding: 6px 10px;
+}
+#box-1 {
+  background-image: url("images/project1.png");
+  background-size: cover;
+}
+#box-1:hover {
+  opacity: 0.5;
+}
+#box-2 {
+  background-image: url("images/project2.png");
+  background-position: top;
+  background-size: cover;
+}
+#box-3 {
+  background-image: url("images/project3.png");
+  background-position: top;
+  background-size: cover;
+}
+#box-4 {
+  background-image: url("images/project4.png");
+  background-position: top;
+  background-size: cover;
 }
