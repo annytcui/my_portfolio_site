@@ -10,9 +10,7 @@ h1 {
   font-size: 4vw;
 }
 h2 {
-  display: block;
   font-size: 3vw;
-  margin: 80px auto 20px;
   text-align: center;
 }
 
@@ -68,13 +66,17 @@ h2 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 60vh;
+  height: 100vh;
   justify-content: center;
 }
 .hero-home h1 {
-  color: rgba(66, 57, 57, 0.8);
+  /*color: rgba(66, 57, 57, 0.8);*/
+  color: white;
   font-family: 'Knewave', cursive;
   text-shadow: 0.5px 0.5px;
+}
+.hero-home h1:hover {
+  opacity: 0.7;
 }
 
 /* LANGUAGE LINKS */
@@ -191,33 +193,27 @@ h2 {
 
 /* CENTRAL BODY STYLES */
 .central-body {
-  background-image: url("images/central.png");
-  background-position: 35% 80%;
+  align-items: center;
+  background-image: url("images/body.png");
   background-size: cover;
-  height: 135vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding: 5vh 3vw;
 }
 
 /* PROJECT STYLES */
 .project-wrapper {
   display: grid;
-  font-size: 24px;
-  grid-template-columns: 50% 50%;
-  margin: auto;
-  max-width: 960px;
+  grid-template-columns: 25% 25% 25% 25%;
+  max-width: 1080px;
 }
 
-.project-wrapper:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}
 .project-box {
-  border-bottom: 1px solid #a9afb2;
   font-size: 1rem;
-  margin: 30px 20px 10px;
+  margin: 10px 20px 10px;
   padding: 20px;
 }
 
