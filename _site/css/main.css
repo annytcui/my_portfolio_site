@@ -173,6 +173,13 @@ h2 {
   -ms-transform: translate(-50%, -50%);
   transition: 0.5s ease;
 }
+.intro-copy h3 {
+  font-family: 'Chela One', cursive;
+  font-size: 2.5rem;
+}
+.intro-copy h3 a{
+  text-decoration: none;
+}
 .project-box:hover img {
   opacity: 0.3;
 }
