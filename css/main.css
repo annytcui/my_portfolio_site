@@ -186,3 +186,21 @@ h2 {
 .project-box:hover .intro-copy {
   opacity: 1;
 }
+.dot {
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+.dot-rails {
+  background-color: purple;
+}
+.dot-css {
+  background-color: #2c9b1d;
+}
+.dot-ruby {
+  background-color: #ad1a32;
+}
+.dot-js {
+  background-color: #a89f2b;
+}
