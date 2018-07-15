@@ -70,7 +70,6 @@ h2 {
   justify-content: center;
 }
 .hero-home h1 {
-  /*color: rgba(66, 57, 57, 0.8);*/
   color: white;
   font-family: 'Knewave', cursive;
   text-shadow: 0.5px 0.5px;
@@ -126,8 +125,6 @@ h2 {
 /* CENTRAL BODY STYLES */
 .central-body {
   align-items: center;
-  /*background-image: url("images/body.png");
-  background-size: cover;*/
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
