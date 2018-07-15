@@ -155,27 +155,23 @@ h2 {
   font-size: 1.5em;
 }
 .project-box img {
+  backface-visibility: hidden;
   border-radius: 2vh;
+  display: block;
   height: 40vh;
   opacity: 1;
-  transition: 0.5s ease;
-  width: 30vw;
-
-  display: block;
   transition: .5s ease;
-  backface-visibility: hidden;
+  width: 30vw;
 }
 .intro-copy {
   opacity: 0;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transition: 0.5s ease;
-
+  /* Position text in the center of the image */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transition: 0.5s ease;
 }
 .project-box:hover img {
   opacity: 0.3;
