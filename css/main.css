@@ -7,7 +7,7 @@ body {
   line-height: normal;
 }
 h1 {
-  font-size: 4vw;
+  font-size: 5vw;
 }
 h2 {
   font-size: 3vw;
@@ -204,4 +204,27 @@ h2 {
 }
 .dot-js {
   background-color: #a89f2b;
+}
+
+/* ABOUT-HERO STYLES */
+.about-hero {
+  background-image: url("images/about.jpeg");
+  height: 65vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Align text in the center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-hero h1 {
+  color: white;
+  font-family: 'Knewave', cursive;
+  text-shadow: 0.5px 0.5px;
+}
+.about-body {
+  height: 115vh;
 }
