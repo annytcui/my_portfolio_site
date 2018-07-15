@@ -211,44 +211,43 @@ h2 {
 }
 
 .project-box {
-  align-items: flex-end;
   border-radius: 2vh;
-  box-shadow: 2px 2px #8d9196;
-  display: flex;
-  font-size: 1rem;
+  box-shadow: 0 0 2px 2px #cbcfd6;
   height: 40vh;
-  justify-content: flex-start;
   margin: 5vh;
+  position: relative;
+  text-align: center;
   width: 30vw;
 }
 .project-box h3 {
   font-size: 1.5em;
 }
+.project-box img {
+  border-radius: 2vh;
+  height: 40vh;
+  opacity: 1;
+  transition: 0.5s ease;
+  width: 30vw;
+
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
 .intro-copy {
-  box-sizing: border-box;
   opacity: 0;
-  padding: 6px 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transition: 0.5s ease;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-#box-1 {
-  background-image: url("images/project1.png");
-  background-size: cover;
+.project-box:hover img {
+  opacity: 0.3;
 }
-#box-1:hover {
-  background-image: none;
-  background-color: #c43636;
-}
-#box-2 {
-  background-image: url("images/project2.png");
-  background-position: top;
-  background-size: cover;
-}
-#box-3 {
-  background-image: url("images/project3.png");
-  background-position: top;
-  background-size: cover;
-}
-#box-4 {
-  background-image: url("images/project4.png");
-  background-position: top;
-  background-size: cover;
+.project-box:hover .intro-copy {
+  opacity: 1;
 }
