@@ -206,7 +206,7 @@ h2 {
   background-color: #a89f2b;
 }
 
-/* HERO-ABOUT STYLES */
+/* ABOUT PAGE STYLES */
 .hero-about {
   background-image: url("images/about.jpeg");
   background-position: 50% 70%;
@@ -216,7 +216,36 @@ h2 {
   height: 115vh;
 }
 
-/* FOOTER-ABOUT STYLES */
 .footer-about {
   background-image: url("images/about.jpeg");
+}
+
+/* CONTACT PAGE STYLES */
+.nav-contact a {
+  color: white;
+}
+.name-contact {
+  color: white;
+}
+.hero-contact {
+  background-image: url("images/contact.jpeg");
+  background-position: center;
+}
+.hero-contact h1 {
+  color: #49c16b;
+}
+.body-contact {
+  height: 115vh;
+}
+.footer-contact {
+  background-image: url("images/contact.jpeg");
+}
+.footer-contact a {
+  color: #49c16b;
+}
+
+.footer-copyright p,
+.footer-copyright h3 {
+  color: #49c16b;
+  font-weight: bold;
 }
