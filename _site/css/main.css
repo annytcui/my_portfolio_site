@@ -244,8 +244,16 @@ h2 {
   color: #49c16b;
 }
 
-.footer-copyright p,
-.footer-copyright h3 {
+.copyright-contact p,
+.copyright-contact h3 {
   color: #49c16b;
   font-weight: bold;
+}
+
+/* WORK PAGE STYLES */
+.hero-work {
+  background-image: url("images/work.jpeg");
+}
+.footer-work {
+  background-image: url("images/work.jpeg");
 }
