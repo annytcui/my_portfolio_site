@@ -228,3 +228,8 @@ h2 {
 .about-body {
   height: 115vh;
 }
+
+/* ABOUT-FOOTER STYLES */
+.about-footer {
+  background-image: url("images/about.jpeg");
+}
