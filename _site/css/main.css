@@ -55,27 +55,27 @@ h2 {
 
 /* HERO STYLES */
 .full-hero {
-  background-image: url("images/home.jpeg");
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  justify-content: center;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.hero-home {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 65vh;
-  justify-content: center;
-}
-.hero-home h1 {
+.full-hero h1 {
   color: white;
   font-family: 'Knewave', cursive;
   text-shadow: 0.5px 0.5px;
 }
-.hero-home h1:hover {
+.full-hero h1:hover {
   opacity: 0.7;
+}
+.home-hero {
+  background-image: url("images/home.jpeg");
 }
 
 /* FONTAWESOME ICON STYLES */
@@ -123,7 +123,7 @@ h2 {
 }
 
 /* CENTRAL BODY STYLES */
-.central-body {
+.body {
   align-items: center;
   box-sizing: border-box;
   display: flex;
@@ -206,30 +206,17 @@ h2 {
   background-color: #a89f2b;
 }
 
-/* ABOUT-HERO STYLES */
-.about-hero {
+/* HERO-ABOUT STYLES */
+.hero-about {
   background-image: url("images/about.jpeg");
-  height: 65vh;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
   background-position: 50% 70%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* Align text in the center */
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.about-hero h1 {
-  color: white;
-  font-family: 'Knewave', cursive;
-  text-shadow: 0.5px 0.5px;
-}
-.about-body {
+
+.body-about {
   height: 115vh;
 }
 
-/* ABOUT-FOOTER STYLES */
-.about-footer {
+/* FOOTER-ABOUT STYLES */
+.footer-about {
   background-image: url("images/about.jpeg");
 }
