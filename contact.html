@@ -23,19 +23,26 @@ layout: default
   <form id="contact-form" action="https://formspree.io/tianyuancuipan@gmail.com"
       method="POST">
     <label for="firstname">First Name</label>
-    <input type="text" name="firstname" required>
+    <input id="firstname" type="text" name="firstname" required>
 
     <label for="lastname">First Name</label>
-    <input type="text" name="lastname" required>
+    <input id="lastname" type="text" name="lastname" required>
 
     <label for="email">Email</label>
-    <input type="email" name="email" required>
+    <input id="email" type="email" name="email" required>
 
     <label for="message">Message</label>
-    <textarea name="message" required></textarea>
+    <textarea id="message" name="message" required></textarea>
 
     <input type="submit" value="Send">
   </form>
+
+  <div id="thankyou-message">
+    <p>Thank you for your message.</p>
+  </div>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="form.js"></script>
 </div>
 
 <footer class="footer footer-contact">
