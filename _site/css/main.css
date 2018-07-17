@@ -220,6 +220,14 @@ h2 {
   background-image: url("images/about.jpeg");
 }
 
+/* WORK PAGE STYLES */
+.hero-work {
+  background-image: url("images/work.jpeg");
+}
+.footer-work {
+  background-image: url("images/work.jpeg");
+}
+
 /* CONTACT PAGE STYLES */
 .nav-contact a {
   color: white;
@@ -235,7 +243,7 @@ h2 {
   color: #49c16b;
 }
 .body-contact {
-  height: 115vh;
+  height: 100vh;
 }
 .footer-contact {
   background-image: url("images/contact.jpeg");
@@ -243,17 +251,40 @@ h2 {
 .footer-contact a {
   color: #49c16b;
 }
-
 .copyright-contact p,
 .copyright-contact h3 {
   color: #49c16b;
   font-weight: bold;
 }
 
-/* WORK PAGE STYLES */
-.hero-work {
-  background-image: url("images/work.jpeg");
+/* CONTACT FORM STYLES */
+#contact-form {
+  width: 760px;
 }
-.footer-work {
-  background-image: url("images/work.jpeg");
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 16px;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+textarea {
+  height: 200px;
 }
