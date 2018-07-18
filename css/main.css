@@ -211,11 +211,22 @@ h2 {
   background-image: url("images/about.jpeg");
   background-position: 50% 70%;
 }
-
 .body-about {
-  height: 115vh;
+  height: 100vh;
 }
-
+.intro-wrapper {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-items: center;
+}
+.profile img {
+  border-radius: 99vh;
+  height: 37vh;
+}
+.self-intro {
+  width: 75%;
+}
 .footer-about {
   background-image: url("images/about.jpeg");
 }
