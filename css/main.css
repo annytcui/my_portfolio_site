@@ -217,15 +217,38 @@ h2 {
 .intro-wrapper {
   align-items: center;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 38% 62%;
   justify-items: center;
+}
+.profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .profile img {
   border-radius: 99vh;
   height: 37vh;
+  margin-bottom: 20px;
+}
+.profile h3,
+.profile p {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+.profile h3 {
+  text-transform: uppercase;
+}
+.profile p {
+  color: gray;
 }
 .self-intro {
-  width: 75%;
+  width: 80%;
+}
+.self-intro p {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .footer-about {
   background-image: url("images/about.jpeg");
