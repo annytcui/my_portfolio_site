@@ -210,12 +210,12 @@ h2 {
   background-position: 50% 70%;
 }
 .body-about {
-  height: 100vh;
+  height: 150vh;
 }
 .intro-wrapper {
   align-items: center;
-  display: grid;
-  grid-template-columns: 38% 62%;
+  display: inline-grid;
+  grid-template-columns: 13% 25% 60% 2%;
   justify-items: center;
 }
 .profile {
@@ -226,8 +226,8 @@ h2 {
 }
 .profile img {
   border-radius: 99vh;
-  height: 37vh;
-  margin-bottom: 20px;
+  height: 42vh;
+  margin-bottom: 30px;
 }
 .profile h3,
 .profile p {
@@ -246,16 +246,23 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 70%;
+  width: 66%;
 }
 .self-intro p,
-.self-intro li {
+.school-list li {
   color: #6b706e;
   font-size: 1rem;
   line-height: 1.5rem;
 }
-.self-intro li {
+.school-list li {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  list-style: circle;
   list-style-position: inside;
+}
+.school-list {
+  line-height: 1rem;
+  margin: 8px 0 8px 20px;
 }
 .self-intro a {
   color: #696b6d;
@@ -268,9 +275,10 @@ h2 {
 .fa-smile-wink,
 .fa-graduation-cap,
 .fa-code,
-.fa-home {
+.fa-home,
+.fa-battery-full {
   color: #2bce9a;
-  /*margin-left: 40%;*/
+  margin-bottom: 0;
 }
 .footer-about {
   background-image: url("images/about.jpeg");
