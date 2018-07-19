@@ -242,7 +242,11 @@ h2 {
   color: gray;
 }
 .self-intro {
-  width: 75%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
 }
 .self-intro p,
 .self-intro li {
@@ -266,7 +270,7 @@ h2 {
 .fa-code,
 .fa-home {
   color: #2bce9a;
-  margin-left: 40%;
+  /*margin-left: 40%;*/
 }
 .footer-about {
   background-image: url("images/about.jpeg");
