@@ -258,9 +258,8 @@ h2 {
   text-decoration: none;
 }
 .self-intro a:hover {
-  color: #2d302d;
+  color: green;
   font-weight: bold;
-  border-bottom: 1.5px solid gray;
 }
 .fa-smile-wink,
 .fa-graduation-cap,
