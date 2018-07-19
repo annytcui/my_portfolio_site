@@ -246,12 +246,21 @@ h2 {
 }
 .self-intro p,
 .self-intro li {
-  color: gray;
+  color: #6b706e;
   font-size: 1rem;
   line-height: 1.5rem;
 }
 .self-intro li {
   list-style-position: inside;
+}
+.self-intro a {
+  color: #696b6d;
+  text-decoration: none;
+}
+.self-intro a:hover {
+  color: #2d302d;
+  font-weight: bold;
+  border-bottom: 1.5px solid gray;
 }
 .fa-smile-wink,
 .fa-graduation-cap,
