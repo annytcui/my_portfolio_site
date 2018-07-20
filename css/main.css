@@ -328,8 +328,18 @@ h2 {
   font-size: 0.9rem;
 }
 .work-intro {
-  border: 1px solid black;
-  width: 50%;
+  width: 60%;
+}
+.work-intro p {
+  color: gray;
+}
+.work-intro a {
+  color: gray;
+  text-decoration: none;
+}
+.work-intro a:hover {
+  color: green;
+  font-weight: bold;
 }
 .footer-work {
   background-image: url("images/work.jpeg");
