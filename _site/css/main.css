@@ -307,8 +307,10 @@ h2 {
   align-items: center;
   display: grid;
   grid-template-columns: 33.5% 33% 33.5%;
+  /*grid-auto-rows: 80vh;*/
   justify-items: center;
   margin: 60px auto;
+  max-width: 80vw;
 }
 .work-box {
   /*border: 1px solid black;*/
@@ -324,6 +326,10 @@ h2 {
 }
 .work-copy p {
   font-size: 0.9rem;
+}
+.work-intro {
+  border: 1px solid black;
+  width: 50%;
 }
 .footer-work {
   background-image: url("images/work.jpeg");
