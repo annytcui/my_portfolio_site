@@ -257,7 +257,6 @@ h2 {
 }
 .school-list li {
   font-size: 0.9rem;
-  font-family: 'Crimson Text', serif;
   line-height: 1.2rem;
   list-style: circle;
   list-style-position: inside;
@@ -293,12 +292,28 @@ h2 {
 .hero-work {
   background-image: url("images/work.jpeg");
 }
-.body-work {
-  height: 100vh;
-}
-/*.work-wrapper {
+.work-wrapper {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 33.5% 33% 33.5%;
+  justify-items: center;
   margin: 60px auto;
-}*/
+}
+.work-box {
+  /*border: 1px solid black;*/
+}
+.work-box,
+.work-box img {
+  border-radius: 99vh;
+  height: 20vw;
+  width: 20vw;
+}
+.work-copy h3 {
+  font-size: 1.7rem;
+}
+.work-copy p {
+  font-size: 0.9rem;
+}
 .footer-work {
   background-image: url("images/work.jpeg");
 }
