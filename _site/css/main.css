@@ -127,7 +127,6 @@ h2 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 120vh;
   justify-content: center;
 }
 
@@ -135,6 +134,7 @@ h2 {
 .project-wrapper {
   display: grid;
   grid-template-columns: 50% 50%;
+  margin: 60px auto;
 }
 
 .project-box {
@@ -210,12 +210,13 @@ h2 {
   background-position: 50% 70%;
 }
 .body-about {
-  height: 150vh;
+  /*height: 150vh;*/
 }
 .intro-wrapper {
   align-items: center;
   display: inline-grid;
   grid-template-columns: 13% 25% 60% 2%;
+  margin: 60px auto;
   justify-items: center;
 }
 .profile {
@@ -292,6 +293,12 @@ h2 {
 .hero-work {
   background-image: url("images/work.jpeg");
 }
+.body-work {
+  height: 100vh;
+}
+/*.work-wrapper {
+  margin: 60px auto;
+}*/
 .footer-work {
   background-image: url("images/work.jpeg");
 }
@@ -310,8 +317,8 @@ h2 {
 .hero-contact h1 {
   color: #49c16b;
 }
-.body-contact {
-  height: 100vh;
+.contact-wrapper {
+  margin: 60px auto;
 }
 .footer-contact {
   background-image: url("images/contact.jpeg");

@@ -33,29 +33,31 @@
 </div>
 
 <div class="body body-contact">
-  <form id="contact-form" action="https://formspree.io/tianyuancuipan@gmail.com"
-      method="POST">
-    <label for="firstname">First Name</label>
-    <input id="firstname" type="text" name="firstname" required>
+  <div class="contact-wrapper">
+    <form id="contact-form" action="https://formspree.io/tianyuancuipan@gmail.com"
+        method="POST">
+      <label for="firstname">First Name</label>
+      <input id="firstname" type="text" name="firstname" required>
 
-    <label for="lastname">Last Name</label>
-    <input id="lastname" type="text" name="lastname" required>
+      <label for="lastname">Last Name</label>
+      <input id="lastname" type="text" name="lastname" required>
 
-    <label for="email">Email</label>
-    <input id="email" type="email" name="email" required>
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" required>
 
-    <label for="message">Message</label>
-    <textarea id="message" name="message" required></textarea>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
 
-    <input type="submit" value="Send">
-  </form>
+      <input type="submit" value="Send">
+    </form>
 
-  <div id="thankyou-message">
-    <p>Thank you for your message :)</p>
+    <div id="thankyou-message">
+      <p>Thank you for your message :)</p>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="javascript/form.js"></script>
   </div>
-
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="javascript/form.js"></script>
 </div>
 
 <footer class="footer footer-contact">
