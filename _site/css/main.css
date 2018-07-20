@@ -256,6 +256,7 @@ h2 {
 }
 .school-list li {
   font-size: 0.9rem;
+  font-family: 'Crimson Text', serif;
   line-height: 1.2rem;
   list-style: circle;
   list-style-position: inside;
@@ -271,6 +272,9 @@ h2 {
 .self-intro a:hover {
   color: green;
   font-weight: bold;
+}
+.placeholder {
+  margin-bottom: 35px;
 }
 .fa-smile-wink,
 .fa-graduation-cap,
