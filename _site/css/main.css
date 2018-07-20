@@ -327,20 +327,6 @@ h2 {
 .work-copy p {
   font-size: 0.9rem;
 }
-.work-intro {
-  width: 60%;
-}
-.work-intro p {
-  color: gray;
-}
-.work-intro a {
-  color: gray;
-  text-decoration: none;
-}
-.work-intro a:hover {
-  color: green;
-  font-weight: bold;
-}
 .footer-work {
   background-image: url("images/work.jpeg");
 }
