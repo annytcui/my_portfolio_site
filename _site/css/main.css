@@ -428,7 +428,6 @@ textarea {
   }
   .project-box img {
     height: auto;
-    opacity: 0.4;
     width: 70vw;
   }
   .intro-copy {
@@ -460,6 +459,6 @@ textarea {
   }
   .fa-linkedin-in,
   .fa-envelope {
-    margin-left: 50px;
+    margin-left: 70px;
   }
 }
