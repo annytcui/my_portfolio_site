@@ -112,7 +112,7 @@ h2 {
 .copyright p,
 .copyright h3 {
   color: white;
-  font-size: 0.8rem;;
+  font-size: 0.8rem;
 }
 .copyright p {
   margin-right: 5px;
@@ -351,7 +351,8 @@ h2 {
 .footer-contact {
   background-image: url("images/contact.jpeg");
 }
-.footer-contact a {
+.footer-contact a,
+.footer-contact i {
   color: #49c16b;
 }
 .copyright-contact p,
@@ -394,4 +395,54 @@ textarea {
 #thankyou-message {
   display: none;
   font-size: 5vh;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1000px) {
+  /* HOME PAGE STYLES */
+  .full-hero {
+    height: 22vh;
+  }
+  .full-hero h1 {
+    color: #566172;
+  }
+  .home-hero {
+    background-image: none;
+  }
+  .project-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 20px;
+  }
+  .project-box {
+    height: auto;
+    margin: 40px;
+    width: 70vw;
+  }
+  .project-box img {
+    height: auto;
+    width: 70vw;
+  }
+  .footer {
+    background-image: none;
+    height: 18vh;
+  }
+  .copyright p,
+  .copyright h3,
+  .fa-copyright {
+    color: #566172;
+    font-size: 1.2rem;
+  }
+  .fab, .fas, .far {
+    color: #566172;
+    text-decoration: none;
+  }
+  .fab, .fas {
+    font-size: 60px;
+  }
+  .fa-linkedin-in,
+  .fa-envelope {
+    margin-left: 50px;
+  }
 }
