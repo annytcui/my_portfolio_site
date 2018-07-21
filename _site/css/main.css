@@ -402,7 +402,8 @@ textarea {
 @media (max-width: 1000px) {
   /* HOME PAGE STYLES */
   .full-hero {
-    height: 22vh;
+    height: 14vh;
+    justify-content: flex-end;
   }
   .full-hero h1 {
     color: #566172;
@@ -413,7 +414,7 @@ textarea {
   .project-wrapper {
     display: flex;
     flex-direction: column;
-    margin: 0 auto 20px;
+    margin: 60px auto 0px;
   }
   .project-box {
     height: auto;
@@ -422,7 +423,18 @@ textarea {
   }
   .project-box img {
     height: auto;
+    opacity: 0.4;
     width: 70vw;
+  }
+  .intro-copy {
+    opacity: 1;
+  }
+  .intro-copy h3 {
+    font-size: 3rem;
+  }
+  .intro-copy p,
+  .intro-copy i {
+    font-size: 1.2rem;
   }
   .footer {
     background-image: none;
