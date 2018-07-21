@@ -400,6 +400,10 @@ textarea {
 /* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
+
+  body {
+    background-color: #f7f9f8;
+  }
   /* HOME PAGE STYLES */
   .full-hero {
     height: 14vh;
@@ -417,6 +421,7 @@ textarea {
     margin: 60px auto 0px;
   }
   .project-box {
+    box-shadow: 0 0 5px 5px #cbcfd6;
     height: auto;
     margin: 40px;
     width: 70vw;
