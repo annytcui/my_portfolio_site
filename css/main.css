@@ -408,12 +408,16 @@ textarea {
 @media (max-width: 1000px) {
 
   /* MOBILE MENU */
+  .header {
+    background-color: #f4f7f5;
+    box-shadow: 0 0 5px 5px #e0e2e1;
+  }
   .show-mobile-menu {
     display: block;
     float: right;
+    font-size: 2rem;
     font-weight: bold;
-    margin-top: 1.5vh;
-    padding: 1.5em;
+    margin-top: 20px;
     position: relative;
     text-transform: uppercase;
   }
@@ -422,6 +426,13 @@ textarea {
     overflow: hidden;
     padding: 0;
     transition: all 0.5s ease-in-out;
+  }
+  .name-div {
+    margin-top: 20px;
+  }
+  .header-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
   }
   .mobile-menu-check:checked ~ .header-nav {
     max-height: 1000px;
@@ -487,4 +498,7 @@ textarea {
   }
 
   /* ABOUT PAGE STYLES */
+  .hero-about {
+    background-image: ;
+  }
 }
