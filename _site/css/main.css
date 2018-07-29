@@ -400,7 +400,7 @@ textarea {
 /* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
-
+  /* HEADER STYLES */
   .header-nav a {
     color: #566172;
     font-family: 'Roboto', sans-serif;
@@ -413,6 +413,7 @@ textarea {
     box-shadow: 0 5px 2px -2px #e5e6e8;
     z-index: 10;
   }
+
   /* HOME PAGE STYLES */
   .full-hero {
     height: 14vh;
@@ -471,4 +472,6 @@ textarea {
   .fa-envelope {
     margin-left: 70px;
   }
+
+  /* ABOUT PAGE STYLES */
 }
