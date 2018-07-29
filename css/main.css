@@ -53,6 +53,12 @@ h2 {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+/* MOBILE STYLES */
+.mobile-menu-check,
+.show-mobile-menu {
+  display: none;
+}
+
 /* HERO STYLES */
 .full-hero {
   align-items: center;
@@ -400,18 +406,25 @@ textarea {
 /* MEDIA QUERIES */
 
 @media (max-width: 1000px) {
-  /* HEADER STYLES */
-  .header-nav a {
-    color: #566172;
-    font-family: 'Roboto', sans-serif;
+
+  /* MOBILE MENU */
+  .show-mobile-menu {
+    display: block;
+    float: right;
+    font-weight: bold;
+    margin-top: 1.5vh;
+    padding: 1.5em;
+    position: relative;
+    text-transform: uppercase;
   }
-  .header-name {
-    font-family: 'Roboto', sans-serif;
+  .header-nav {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: all 0.5s ease-in-out;
   }
-  .nav-up {
-    background-color: rgba(255, 255, 255);
-    box-shadow: 0 5px 2px -2px #e5e6e8;
-    z-index: 10;
+  .mobile-menu-check:checked ~ .header-nav {
+    max-height: 1000px;
   }
 
   /* HOME PAGE STYLES */
@@ -434,12 +447,12 @@ textarea {
   .project-box {
     box-shadow: 0 0 5px 5px #cbcfd6;
     height: auto;
-    margin: 40px;
-    width: 70vw;
+    margin: 60px;
+    width: 80vw;
   }
   .project-box img {
     height: auto;
-    width: 70vw;
+    width: 80vw;
   }
   .intro-copy {
     opacity: 1;
