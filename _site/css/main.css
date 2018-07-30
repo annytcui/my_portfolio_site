@@ -411,6 +411,7 @@ textarea {
   .header {
     background-color: #f4f7f5;
     box-shadow: 0 0 3px 3px #e0e2e1;
+    height: 8vh;
   }
   .show-mobile-menu {
     display: block;
@@ -422,10 +423,32 @@ textarea {
     text-transform: uppercase;
   }
   .header-nav {
+    background-color: #f4f7f5;
+    box-sizing: border-box;
+    left: 0;
     max-height: 0;
     overflow: hidden;
     padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 8vh;
     transition: all 0.5s ease-in-out;
+    width: 100vw;
+    z-index: 9;
+  }
+  .header-nav li {
+    display: block;
+    margin-top: 1em;
+  }
+  .header-nav li ~ li {
+    border: 0;
+    padding: 0;
+  }
+  .header-nav li:last-child {
+    margin-bottom: 1em;
+  }
+  .header-nav a {
+    font-family: 'Roboto', sans-serif;
   }
   .name-div {
     margin-top: 20px;
