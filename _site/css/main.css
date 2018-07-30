@@ -411,7 +411,7 @@ textarea {
   .header {
     background-color: #f4f7f5;
     box-shadow: 0 0 3px 3px #e0e2e1;
-    height: 8vh;
+    height: 9vh;
   }
   .show-mobile-menu {
     display: block;
@@ -443,12 +443,14 @@ textarea {
   .header-nav li ~ li {
     border: 0;
     padding: 0;
+    margin-top: 1.5em;
   }
   .header-nav li:last-child {
     margin-bottom: 1em;
   }
   .header-nav a {
     font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
   }
   .name-div {
     margin-top: 20px;
@@ -522,6 +524,40 @@ textarea {
 
   /* ABOUT PAGE STYLES */
   .hero-about {
-    background-image: ;
+    background-image: none;
+  }
+
+  /* WORK PAGE STYLES */
+  .hero-work {
+    background-image: none;
+  }
+
+  /* CONTACT PAGE STYLES */
+  .hero-contact {
+    background-image: none;
+  }
+  .name-contact,
+  .nav-contact a,
+  .icons-contact a,
+  .copyright-contact i {
+    color: #566172;
+  }
+
+  /* FORM STYLES*/
+  #contact-form {
+    width: 75vw;
+  }
+  .label {
+    font-size: 2em;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=message] {
+    font-size: 2em;
+  }
+  input[type=submit] {
+    font-size: 1.8em;
+    height: 60px;
+    width: 135px;
   }
 }
