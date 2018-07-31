@@ -526,6 +526,27 @@ textarea {
   .hero-about {
     background-image: none;
   }
+  .intro-wrapper {
+    grid-template-columns: 100%;
+  }
+  .profile img {
+    height: 60vw;
+    width: 60vw;
+  }
+  .profile h3,
+  .profile p {
+    display: none;
+  }
+  .self-intro {
+    width: 85%;
+  }
+  .self-intro i {
+    margin-top: 20px;
+  }
+  .self-intro p {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
 
   /* WORK PAGE STYLES */
   .hero-work {
