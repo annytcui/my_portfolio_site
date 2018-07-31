@@ -552,6 +552,9 @@ textarea {
   .hero-work {
     background-image: none;
   }
+  .work-wrapper {
+    grid-template-columns: 100%;
+  }
 
   /* CONTACT PAGE STYLES */
   .hero-contact {
