@@ -2,6 +2,7 @@ $(document).ready(function() {
 
   $('#contact-form').on('submit', function(e) {
     e.preventDefault();
+    // return false;
 
     // get the name field value
     var firstname = $('#firstname').val();
