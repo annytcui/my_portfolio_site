@@ -318,9 +318,6 @@ h2 {
   margin: 60px auto;
   max-width: 80vw;
 }
-.work-box {
-  /*border: 1px solid black;*/
-}
 .work-box,
 .work-box img {
   border-radius: 99vh;
@@ -555,12 +552,19 @@ textarea {
   .work-wrapper {
     grid-template-columns: 100%;
   }
+  .work-box,
+  .work-box img {
+    height: 68vw;
+    width: 68vw;
+  }
 
   /* CONTACT PAGE STYLES */
   .hero-contact {
     background-image: none;
   }
-  .name-contact,
+  .name-contact {
+    color: #303459;
+  }
   .nav-contact a,
   .icons-contact a,
   .copyright-contact i {
