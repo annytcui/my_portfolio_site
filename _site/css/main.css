@@ -398,6 +398,7 @@ textarea {
 #thankyou-message {
   display: none;
   font-size: 5vh;
+  margin: 30vh 0;
 }
 
 /* MEDIA QUERIES */
