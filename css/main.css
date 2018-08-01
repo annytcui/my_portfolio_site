@@ -506,7 +506,8 @@ textarea {
   .copyright h3,
   .fa-copyright {
     color: #566172;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: normal;
   }
   .fab, .fas, .far {
     color: #566172;
