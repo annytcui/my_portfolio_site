@@ -12,18 +12,17 @@ h1 {
 
 /* HERO STYLES */
 .full-hero {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  align-items: center;
   justify-content: center;
+  height: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("images/home.jpeg");
-  background-position: 0 800%;
+  background-position: bottom;
 }
 .full-hero h1 {
   color: white;
@@ -54,17 +53,17 @@ h1 {
 
 /* FOOTER STYLES */
 .footer {
-  align-items: center;
-  background-image: url("images/home.jpeg");
   display: flex;
   flex-direction: column;
-  height: 30vh;
+  align-items: center;
   justify-content: center;
+  height: 30vh;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url("images/home.jpeg");
 }
 .copyright {
   display: flex;
